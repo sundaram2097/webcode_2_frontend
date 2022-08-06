@@ -25,7 +25,7 @@ const answer = JSON.parse(storeData)
     <span className="navbar-toggler-icon"><i className="fas fa-sliders-h tg"></i></span>
   </button>
   <img src="./images/wheel.png" style={{width:"40px" , height:"40px" , marginRight:"8px"}} alt="logos"/>
-  <a className="navbar-brand navitem appName" href="/">Rental<span className="sName">Vehicle</span></a>
+  <a className="navbar-brand navitem appName" href="/">Rental Vehicle</a>
 
   <div className="collapse navbar-collapse end" id="navbarTogglerDemo03">
     <ul className="navbar-nav">
@@ -50,13 +50,10 @@ const answer = JSON.parse(storeData)
         localStorage.clear();
         history.push("/")}}
         type="button" style={{cursor:"pointer"}}><i className="fas fa-palette icon"></i>LogOut</button>
-         {/* <button className="dropdown-item" type="button" onClick={()=>{
-           verifyingManually()
-           setBikePop(!bookPop)
-         }}><i className="far fa-address-card icon"></i>Verify E-mail</button> */}
+        
       </div>
     </div>:
-      //<button className="navLog" onClick={()=>{setLoginPop(false)}}>{loggedData.name}<i class="fas fa-sign-in-alt  logIcon"></i></button> : 
+     
       <button className="navLog"  onClick={()=>{setLoginPop(!login)}}>Login<i className="fas fa-sign-in-alt  logIcon"></i></button>
       }
         

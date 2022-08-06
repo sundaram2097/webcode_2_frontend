@@ -56,13 +56,13 @@ margin-bottom: 5px;
 .cards {
   border-radius: 1.2rem;
   overflow: hidden;
-  border: 1px solid #222fe8;
-  background-color: rgb(180, 245, 253);
+  border: 1px solid #a6ddb8;
+  background-color: rgb(158, 108, 51);
   margin-bottom: 30px;
 }
 
 .cards:hover {
-  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 4px 4px rgba(214, 95, 95, 0.2);
   cursor: pointer;
 }
 
@@ -95,9 +95,9 @@ margin-bottom: 5px;
 }
 
  .bookBtn{
-  background-color: #8822e8;
+  background-color: #05af27fa;
   border: none;
-  color: white;
+  color: rgb(215, 93, 93);
 }
 
 /* .bookBtn:hover{
@@ -106,14 +106,14 @@ margin-bottom: 5px;
 }  */
 
 :disabled:hover{
-  background-color: rgb(209, 209, 209);
+  background-color: rgb(139, 127, 127);
 }
 
 .rsBtn{
   margin-right: 65px;
  font-weight: bold;
   border: none;
-  color:rgb(0, 0, 0);
+  color:rgb(74, 44, 184);
 
 }
 

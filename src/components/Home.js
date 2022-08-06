@@ -148,7 +148,6 @@ function Home(){
             </div>
         </div>
 
-
          
         {
             login===true ? <LogIn/>:null
